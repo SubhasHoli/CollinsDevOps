@@ -1,0 +1,5 @@
+FROM docker.io/library/nginx
+RUN yum install httpd -y
+WORKDIR /var/www/html/
+RUN echo "
+
